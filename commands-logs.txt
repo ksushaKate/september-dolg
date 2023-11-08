@@ -1,0 +1,50 @@
+227  mkdir task-2
+  228  cd task-2/
+  229  ls -l
+  230  mkdir example
+  231  mkdir home
+  232  git init
+  233  git add README.md
+  234  git branch -M rask-2
+  235  gti push --delete
+  236  git branch -M task-2
+  237  git remote add origin https://github.com/ksushaKate/september-dolg.git
+  238  cd example/
+  239  touch example{1..204}.txt
+  240  ls -l
+  241  clear
+  242  cd ..
+  243  cd home/
+  244  mkdir user1
+  245  mkdir user2
+  246  mkdir user3
+  247  mkdir user4
+  248  mkdir user5
+  249  cd user1
+  250  mkdir files
+  251  mkdir photos
+  252  mkdir videos
+  253  ls -l
+  254  cd files/
+  255  touch file{1..204}.txt
+  256  cd ..
+  257  cd photos/
+  258  touch photo{1..179}.txt
+  259  cd ..
+  260  cd videos/
+  261  touch video{1..29}.txt
+  262  cd ..
+  263  cp -r user1/. user2
+  264  ls -l
+  265  ls user2
+  266  ls -l user2
+  267  ls -l user2/files/
+  268  cd ..
+  269  ls -l
+  270  cd home/
+  271  clear
+  272  ls -l
+  273  cp -r user1/. user3
+  274  cp -r user1/. user4
+  275  cp -r user1/. user5
+  276  history
